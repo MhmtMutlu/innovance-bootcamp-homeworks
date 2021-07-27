@@ -1,0 +1,19 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9ecef;
+}
+
+:root {
+  --primary-color: #212529;
+  --secondary-color: #343a40;
+  --border-color: #495057;
+  --card-color: #dee2e6;
+}

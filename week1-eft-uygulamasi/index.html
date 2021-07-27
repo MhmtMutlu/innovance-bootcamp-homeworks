@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/alertify.min.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/alertify.min.css"/>
+    <!-- Default theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/default.min.css"/>
+    <!-- Semantic UI theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/semantic.min.css"/>
+    <!-- Bootstrap theme -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/alertifyjs@1.13.1/build/css/themes/bootstrap.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- <script type="module" src="js/example-other-file.js"></script> -->
+    <title>Happy Bank</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Internet Banking</h1>
+        <div>
+            <p class="timer-countdown"></p>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Select Your Bank Account</h2>
+        <div class="accounts"></div>
+        <div class="section">
+            <h2>Receiver Bank Account</h2>
+            <input type="text" class="receiver-account" placeholder="TR__-____-____-____">
+        </div>
+        <div class="section">
+            <h2>Amount of Money To Be Send</h2>
+            <label class="alert-label"></label>
+            <input type="number" id="money-input" disabled>
+        </div>
+        <button type="button" class="send-button disable-button">Send Money</button>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>

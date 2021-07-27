@@ -1,0 +1,18 @@
+{
+    "name": "week1-homework",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/kodin21/week1-homework.git",
+    "author": "Berkay Aydın <sbayd06@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "start": "parcel index.html",
+        "build": "parcel build index.html"
+    },
+    "devDependencies": {
+        "parcel-bundler": "^1.12.5"
+    },
+    "dependencies": {
+        "fuse.js": "^6.4.6"
+    }
+}
