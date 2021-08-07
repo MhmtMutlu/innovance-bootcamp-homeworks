@@ -1,23 +1,23 @@
 .title {
   margin: 30px 0;
-  color: #e76f51;
+  color: var(--title-color);
 }
 
 .select-label {
-  color: #f4a261;
+  color: var(--primary-color);
   margin: 10px 0;
 }
 
 .select-input {
   outline: none;
   padding: 10px;
-  border: 2px solid #e76f51;
+  border: 2px solid var(--title-color);
   color: #264653;
-  background-color: #c7f9cc;
+  background-color: var(--tertiary-color);
   width: 300px;
 
   &:focus {
-    border: 2px solid #2a9d8f;
+    border: 2px solid var(--focus-color);;
   }
 }
 

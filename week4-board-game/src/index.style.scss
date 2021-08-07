@@ -4,11 +4,27 @@
   box-sizing: border-box;
 }
 
+$backgroundColor: #264653;
+$titleColor: #e76f51; 
+$primaryColor: #f4a261;
+$secondaryColor: #e9c46a;
+$tertiaryColor: #c7f9cc;
+$focusColor: #2a9d8f;
+
+:root {
+  --background-color: #{$backgroundColor};
+  --title-color: #{$titleColor};
+  --primary-color: #{$primaryColor};
+  --secondary-color: #{$secondaryColor};
+  --tertiary-color: #{$tertiaryColor};
+  --focus-color: #{$focusColor};
+}
+
 body {
   font-family: 'Press Start 2P', cursive;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #264653;
+  background-color: var(--background-color);
 }
 
 code {
