@@ -1,0 +1,45 @@
+.map {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    ". gameboard info";
+}
+
+.gameboard  {
+  grid-area: gameboard;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 5px solid #e76f51;
+  background-image: url("../../assets/background1.png");
+  background-repeat: no-repeat;
+  background-size: 490px 500px;
+}
+
+.info {
+  grid-area: info;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.main-title {
+  font-size: 34px;
+  margin-bottom: 30px;
+  color: #e76f51;
+}
+
+.info-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #f4a261;
+}
+
+.description {
+  margin-bottom: 20px;
+  color: #e9c46a;
+}

@@ -1,0 +1,32 @@
+.title {
+  margin: 30px 0;
+  color: #e76f51;
+}
+
+.select-label {
+  color: #f4a261;
+  margin: 10px 0;
+}
+
+.select-input {
+  outline: none;
+  padding: 10px;
+  border: 2px solid #e76f51;
+  color: #264653;
+  background-color: #c7f9cc;
+  width: 300px;
+
+  &:focus {
+    border: 2px solid #2a9d8f;
+  }
+}
+
+.header {
+  width: 500px;
+  height: 180px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
