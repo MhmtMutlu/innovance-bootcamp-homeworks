@@ -1,0 +1,52 @@
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  --bg-color: #5e58f2;
+  --btn-color: #0a85ed;
+  --addbtn-color: #38b000;
+  --chat-color: #c6c6c6;
+  --white-color: #ebf2fa;
+  --title-color: #2b2d42;
+  --card-color: #dee2e6;
+  --hover-color: #adb5bd;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.8);*/
+  -webkit-border-radius: 10px;
+  background-color: var(--white-color);
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #dee2e6;
+  box-shadow: inset 0 0 6px var(--btn-color);
+  -webkit-box-shadow: inset 0 0 6px var(--btn-color);
+}
