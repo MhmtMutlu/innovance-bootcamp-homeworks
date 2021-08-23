@@ -1,0 +1,18 @@
+.hidden-word {
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.hidden-letter {
+  height: 25px;
+  width: 20px;
+  margin-right: 10px;
+  border-bottom: 1px solid red;
+}
+
+.hidden-space {
+  height: 25px;
+  width: 20px;
+  margin-right: 10px;
+}

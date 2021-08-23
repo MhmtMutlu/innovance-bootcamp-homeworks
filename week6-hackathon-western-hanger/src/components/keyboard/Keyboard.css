@@ -1,0 +1,22 @@
+.keyboard {
+  width: 300px;
+  height: 200px;
+  background-image: url('../../assets/images/letters.png');
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  background-size: 100% 100%;
+  border-radius: 2px;
+  margin: 50px 0;
+}
+.letter {
+  border: none;
+  background-color: transparent;
+}
+.letter:hover {
+  border: 2px solid red;
+}
+.letter:active {
+  border: 2px solid green;
+}

@@ -1,0 +1,17 @@
+.hangman {
+  top: 0;
+  height: 128px;
+  width: 128px;
+  background-image: url('../../assets/images/western.png');
+}
+
+.hangman__lose {
+  margin-top: 15px;
+  color: red;
+  font-size: 18px;
+}
+.hangman__win {
+  margin-top: 15px;
+  color: green;
+  font-size: 18px;
+}
